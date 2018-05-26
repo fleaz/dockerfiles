@@ -9,6 +9,7 @@ RUN apt-get update &&\
 		git \
 		mtr \
 		tmux \
+		unzip \
 		vim \
 		wget
 
