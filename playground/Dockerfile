@@ -7,6 +7,7 @@ RUN apt-get update &&\
 		curl \
 		dnsutils \
 		git \
+        iproute2 \
 		mtr \
 		tmux \
 		unzip \
