@@ -3,7 +3,7 @@ LABEL maintainer Felix Breidenstein <mail@fleaz.me>
 
 RUN apt-get update &&\
     apt-get install -y \
-	apache2-utils
+	apache2-utils \
 	ca-certificates \
 	curl \
 	dnsutils \
