@@ -10,9 +10,10 @@ RUN apt-get update &&\
 	git \
 	iproute2 \
 	mtr \
+    pwgen \
 	tmux \
 	unzip \
 	vim \
-	wget
+	wget 
 
 CMD ["/bin/bash"]
