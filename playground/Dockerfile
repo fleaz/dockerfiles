@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bullseye
 LABEL maintainer Felix Breidenstein <mail@fleaz.me>
 
 RUN apt-get update &&\

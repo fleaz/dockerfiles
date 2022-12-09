@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:focal
 LABEL maintainer Felix Breidenstein <mail@fleaz.me>
 
 RUN apt-get update &&\
